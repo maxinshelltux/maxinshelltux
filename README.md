@@ -28,7 +28,7 @@
 
 ### 📚 My Learning Journey & Projects:
 
-- [TryHackMe Profile](https://tryhackme.com/p/maxinshelltux)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-red?logo=tryhackme&style=flat-square)](https://tryhackme.com/p/maxinshelltux)
 - [GitLab Profile](https://gitlab.com/maxinshelltux)
 - [LinkedIn Profile](https://www.linkedin.com/in/maxinshelltux)
 - 🚧 More projects coming soon...
