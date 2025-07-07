@@ -30,7 +30,7 @@
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-red?logo=tryhackme&style=flat-square)](https://tryhackme.com/p/maxinshelltux)
 [![GitLab](https://img.shields.io/badge/GitLab-Profile-orange?logo=gitlab&style=flat-square)](https://gitlab.com/maxinshelltux)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/maxinshelltux)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/maxinshelltux)
 - 🚧 More projects coming soon...
 
 ---
