@@ -11,7 +11,7 @@
 
 | Модуль | Цели EX200 | Статус |
 |---|---|---|
-| `01-kernel-boot-grubby` | Modify the system bootloader | готов, выводы сняты 2026-10-05, QA зелёный |
+| `01-kernel-boot-grubby` | Modify the system bootloader | готов, выводы сняты 2026-10-05 (пункты 1.3 и 4.6 — 2026-10-06), QA зелёный на 2026-10-05 |
 | `02-kernel-modules` | отдельной цели нет; опирается на Modify the system bootloader, Start and stop services…, Locate and interpret system log files and journals | готов, выводы сняты 2026-10-05 и 2026-10-06, QA зелёный |
 | `03-memory` | Identify CPU/memory intensive processes and kill processes; Add new partitions and logical volumes, and swap to a system non-destructively; Locate and interpret system log files and journals | готов, выводы сняты 2026-10-05 и 2026-10-06, QA зелёный |
 
