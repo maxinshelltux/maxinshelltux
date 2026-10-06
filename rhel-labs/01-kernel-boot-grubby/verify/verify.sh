@@ -17,7 +17,7 @@ ENTRIES="$(kernel_count)"
 
 PRESENT="$(lab_params_in_config)"
 [[ -z "$PRESENT" ]] \
-  || fail "в записях загрузчика уже есть параметры лабы ($PRESENT): сначала sudo ./verify/cleanup.sh"
+  || refuse "в записях загрузчика уже есть параметры лабы ($PRESENT): сначала sudo ./verify/cleanup.sh"
 
 START_DEFAULT="$(default_kernel)"
 START_INDEX="$(default_index)"

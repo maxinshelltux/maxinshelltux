@@ -35,4 +35,9 @@ if [[ -f "$DIR/verify/prepare.sh" ]]; then
 fi
 echo "verify..."
 bash "$DIR/verify/verify.sh"
-exit $?
+STATUS=$?
+if [[ "$STATUS" -eq 3 ]]; then
+  CLEANED=1
+  echo "[WARN] проверка не начата: состояние стенда оставлено как есть, cleanup не запускался"
+fi
+exit "$STATUS"

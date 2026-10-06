@@ -5,6 +5,7 @@ set -euo pipefail
 ok()   { printf '[OK] %s\n'   "$*"; }
 warn() { printf '[WARN] %s\n' "$*"; }
 fail() { printf '[FAIL] %s\n' "$*"; return 1; }
+refuse() { printf '[FAIL] %s\n' "$*"; exit 3; }
 
 need_root() {
   [[ "${EUID:-$(id -u)}" -eq 0 ]] || fail "нужен root: запусти через sudo"
