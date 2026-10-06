@@ -16,6 +16,15 @@ while IFS= read -r -d '' script; do
   fi
 done < <(find . -name '*.sh' -print0 | sort -z)
 
+while IFS= read -r -d '' program; do
+  if python3 -c 'import ast, sys; ast.parse(open(sys.argv[1], encoding="utf-8").read())' "$program"; then
+    echo "[OK] python $program"
+  else
+    echo "[FAIL] python $program"
+    status=1
+  fi
+done < <(find . -name '*.py' -print0 | sort -z)
+
 for readme in */README.md; do
   module="${readme%/README.md}"
   [[ -f "$module/verify/verify.sh" ]] || continue
