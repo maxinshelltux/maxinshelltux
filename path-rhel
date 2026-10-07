@@ -30,3 +30,17 @@ systemctl get-default
 systemctl set-default
 systemctl list-units --type-target
 
+PERFORMANS AND TUNING
+tuned-adm active -> current
+tuned-adm list -> list
+tuned-adm profile -> set
+
+
+
+
+
+
+
+
+
+
