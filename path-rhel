@@ -1,6 +1,5 @@
 ---------------kernel---------------
 EDITING/ANALYSIS KERNEL PARAMS ON LIVE AND FUTURE
-
 grub/grubby*****
 --info=
 --set
@@ -34,6 +33,10 @@ PERFORMANS AND TUNING
 tuned-adm active -> current
 tuned-adm list -> list
 tuned-adm profile -> set
+
+SYSTEMD-ANALYZE
+systemd-analyze blame | plot | critical-chain
+...:wq!
 
 
 
