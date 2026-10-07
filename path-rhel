@@ -1,4 +1,6 @@
 ---------------kernel---------------
+EDITING/ANALYSIS KERNEL PARAMS ON LIVE AND FUTURE
+
 grub/grubby*****
 --info=
 --set
@@ -8,10 +10,13 @@ uname -r
 /etc/cmdline
 
 
+EDITING KERNEL PARAMS ON LIVE MACHINE
 sysctl -w/ -a
+
+ANALYSIS OF KERNEL LOGS
 dmesg -T/ -wH
 
-
+RESTORE ROOT ACCESS BY GRUB
 e
 rd.break
 mount -o remount.rw /sysroot
@@ -19,6 +24,7 @@ chroot /sysroot
 passwd root
 exit
 
+MANAGE MODES ON LIVE AND FUTURE 
 systemctl isolate
 systemctl get-default
 systemctl set-default
