@@ -1,0 +1,26 @@
+---------------kernel---------------
+grub/grubby*****
+--info=
+--set
+--update-kernel --params
+/etc/default
+uname -r 
+/etc/cmdline
+
+
+sysctl -w/ -a
+dmesg -T/ -wH
+
+
+e
+rd.break
+mount -o remount.rw /sysroot
+chroot /sysroot
+passwd root
+exit
+
+systemctl isolate
+systemctl get-default
+systemctl set-default
+systemctl list-units --type-target
+
