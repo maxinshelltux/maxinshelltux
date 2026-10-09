@@ -14,6 +14,7 @@
 | `01-kernel-boot-grubby` | Modify the system bootloader | готов, выводы сняты 2026-10-05 (пункты 1.3 и 4.6 — 2026-10-06), QA зелёный на 2026-10-05 |
 | `02-kernel-modules` | отдельной цели нет; опирается на Modify the system bootloader, Start and stop services…, Locate and interpret system log files and journals | готов, выводы сняты 2026-10-05 и 2026-10-06, QA зелёный |
 | `03-memory` | Identify CPU/memory intensive processes and kill processes; Add new partitions and logical volumes, and swap to a system non-destructively; Locate and interpret system log files and journals | готов, выводы сняты 2026-10-05 и 2026-10-06, QA зелёный |
+| `04-boot-interrupt-rd-break` | Interrupt the boot process in order to gain access to a system | готов, выводы сняты 2026-10-09 на консоли стенда (EC2 Serial Console), QA зелёный |
 
 ## Стенд
 
@@ -86,4 +87,4 @@ sudo ./scripts/qa/run-module.sh 03-memory
   `[DRY-RUN]`. Удаление выполняет запуск `cleanup.sh --apply`, и запускает его
   человек.
 - Экзамен — RHCSA (EX200), версия для RHEL 10; список целей сверяется со страницей
-  экзамена при подготовке каждого модуля (последняя сверка 2026-10-05).
+  экзамена при подготовке каждого модуля (последняя сверка 2026-10-07).
