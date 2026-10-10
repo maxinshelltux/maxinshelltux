@@ -16,6 +16,7 @@
 | `03-memory` | Identify CPU/memory intensive processes and kill processes; Add new partitions and logical volumes, and swap to a system non-destructively; Locate and interpret system log files and journals | готов, выводы сняты 2026-10-05 и 2026-10-06, QA зелёный |
 | `04-boot-interrupt-rd-break` | Interrupt the boot process in order to gain access to a system | готов, выводы сняты 2026-10-09 на консоли стенда (EC2 Serial Console), QA зелёный |
 | `05-systemd-targets` | Boot systems into different targets manually; смежно — Boot, reboot, and shut down a system normally, Modify the system bootloader | готов, выводы сняты 2026-10-05 (target'ы, rescue/emergency) и 2026-10-10 (systemd-analyze), QA зелёный |
+| `06-udev-persistent-naming` | Configure systems to mount file systems at boot by universally unique ID (UUID) or label; смежно — Create, mount, unmount, and use VFAT, ext4, and XFS file systems | готов, выводы сняты 2026-10-10, QA зелёный |
 
 ## Стенд
 
